@@ -100,3 +100,10 @@ footer a {
 		font-size: 3em;
 	}
 }
+
+@media all and (min-height: 700px) and (min-width: 768px){
+	footer {
+		position: fixed;
+		padding-bottom: 1em;
+	}
+}
