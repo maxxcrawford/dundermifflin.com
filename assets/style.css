@@ -1,7 +1,10 @@
 
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	margin: 2em;
+	margin: 0;
+	position: relative;
+	min-height: 100vh;
+	outline: 1px solid green;
 }
 
 html {
@@ -13,6 +16,8 @@ html {
 
 main {
 	text-align: center;
+	position: relative;
+	padding: 2em;
 }
 
 img {
@@ -22,11 +27,13 @@ img {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 2.5em;
+	line-height: 1.2em;
 }
 
 h2 {
-	font-size: 2em;
+	line-height: 1.2em;
+	font-size: 2.5em;
 	color: green;
 }
 
@@ -53,4 +60,21 @@ h2 strong {
 	h1, h2 {
 		font-size: 3em;
 	}
+}
+
+footer {
+	display: block;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px;
+	text-align: center;
+	padding: 0 0 2em;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: #999;
+}
+
+footer a {
+	color: #0067AA;
 }
