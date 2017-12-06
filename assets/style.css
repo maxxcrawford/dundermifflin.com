@@ -1,0 +1,56 @@
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 2em;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+	text-align: center;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto 2em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2em;
+	color: green;
+}
+
+h2 span {
+	color: red;
+}
+
+h2 strong {
+	font-weight: bold;
+	color: black;
+}
+
+.logo {
+	margin-bottom: 3em;
+}
+
+@media all and (min-width: 375px){
+	.logo {
+		max-width: 300px;
+	}
+}
+
+@media all and (min-width: 768px){
+	h1, h2 {
+		font-size: 3em;
+	}
+}
